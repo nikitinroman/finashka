@@ -1,0 +1,145 @@
+#Никитин Роман ПИ18-2
+#Отправляю второй раз, на всякий случай только текстовый документ, 
+#на случай, если полетит кодировка.
+#время первой отправки- 17.03
+library(corrgram)
+library(rootSolve)
+
+#1
+df = swiss
+df
+#1.1
+df_obr = df[6:1]
+df_obr
+
+#1.2
+df_clone_4 = df[1:4]
+df_clone_4
+
+#1.3
+df_clone_sorted = df[with(df, order(df$Fertility)),]
+df_clone_sorted
+
+#1.4
+df_filtered = filter(swiss, swiss$Fertility<70, swiss$Education==12)
+df_filtered
+
+#2
+func1 <- function(x) 2x+1;
+func2 <- function(x) x^2-2;
+(roots <- uniroot.all(func2, c(-10, 10)))
+abs(as.numeric(integrate(func2, lower = roots[1], upper = roots[2])$value)) -
+  abs(as.numeric(integrate(func1, lower = roots[1], upper = roots[2])$value))
+
+#3
+func1 <- function(x) (x+2)^2*(x-3)^3
+curve(func1, -1000, 1000)
+abline(v = 0, lty = 5)
+abline(h = 0, lty = 5)
+optimize(func1, c(-1000, 1000))
+optimize(func1, c(-1000, 1000), maximum = T)
+#$maximum
+#[1] 999.9999
+#objective
+# 9.949946e+14
+#minimum
+#[1] -999.9999
+#$objective
+#[1] -1.004994e+15
+
+func2 <- function(x) x^4 - 8x^2 + 12
+curve(func2, -10, 10)
+abline(v = 0, lty = 5)
+abline(h = 0, lty = 5)
+optimize(func2, c(-10, 10))
+optimize(func2, c(-10, 10), maximum = T)
+#Минимум в точке -2
+#$minimum
+#[1] 0
+#$objective
+#[1] -2
+#$maximum
+#[1] -9.999926
+#$objective
+#[1] 97.99853
+
+#4
+#4.1
+airquality
+
+#4.2
+airquality
+ggplot(airquality, aes(airquality$Ozone)) + geom_boxplot()
+
+#4.3
+pairs(airquality)
+
+#4.3.2
+corrgram(airquality)
+
+#4.3.3
+fit = lm(Ozone ~ ., airquality)
+f1 = step(fit, direction = "backward")
+summary(f1)
+
+#Исходя из визуального анализа графиком, полученный при построении методом pairs()
+#и corrgram(), а так же регрессионного анализа методом step() для поиска наиболее
+#сильно оказывающих влияние факторов на необходимый параметр наблюдения, выяснил,что 
+#наиболее сильное влияние на наличие озона оказывают такие факторы, как:
+#солнечный свет, ветренность и температура. Месяц тоже оказывает влияние, но гораздо меньшее
+#так как p-value > 0,05, а p-value у остальных факторов намного меньше.
+
+#5
+
+#5.1
+df_1 = read.csv('C:\\Users\\User\\Desktop\\Новая папка (2)\\nassCDS.csv')
+df_1
+
+#5.2
+df_1$sex <- factor(df_1$sex)
+df_1$abcat <- factor(df_1$abcat)
+df_1$occRole <- factor(df_1$occRole)
+df_1$dead <- factor(df_1$dead)
+df_1$airbag <- factor(df_1$airbag)
+df_1$seatbelt <- factor(df_1$seatbelt)
+#Назначаю факторами все столбцы, в которых 1-2 повторяющихся значения.
+
+#5.3
+pairs(df_1)
+corrgram(df_1)
+#на графике цветом отмечены степени влияния факторов друг на друга
+fit = lm(dead ~ ., df_1)
+f2 = step(fit, direction = "backward")
+summary(f2)
+
+#Ниже все надолго виснет при применениее ф-ии lm(), грешу на слабый пк, либо
+#просто не правильно что то делаю...
+#5.4.1
+fit = lm(dvcat ~ ., df_1)
+f2 = step(fit, direction = "backward")
+summary(f2)
+
+#5.4.2
+fit = lm(occ_Role ~ ., df_1)
+f2 = step(fit, direction = "backward")
+summary(f2)
+
+#5.4.3
+fit = lm(sex ~ ., df_1)
+f2 = step(fit, direction = "backward")
+summary(f2)
+
+#5.4.4
+df_1
+fit = lm(weight ~ ., df_1)
+f2 = step(fit, direction = "backward")
+summary(f2)
+#Выбрал коэффициент weight, так как судя по всему- это весовой коэффициент наблюдения.
+
+#6
+#6.1
+matr = matrix(data = 1:25, nrow = 5, ncol = 5, byrow = TRUE)
+matr
+#Тут ну совсем все просто.
+#6.2
+#Слишком сложно, сдаюсь(

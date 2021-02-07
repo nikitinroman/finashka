@@ -1,0 +1,18 @@
+1)
+abc = c(letters[seq(1,26, by = 2)]); abc
+2)
+t = 2
+abc = c(letters[-seq(1,26, by = t)]); abc
+3)
+m = matrix(letters, ncol = 25, nrow = 26, byrow = TRUE)
+m = cbind(m, letters[26:1]);m
+4)
+rm(m1)
+x = 23
+m1 = matrix(letters, ncol = x, nrow = 26, byrow = TRUE)
+m1
+y = 1
+for (i in 1:(26-x))
+  y = y+1
+  m1 = cbind(m1, letters[y:26])
+m1

@@ -1,0 +1,5 @@
+﻿SAMSUNG SL-M4020ND/XEV Laser-Poroshok 12000 9,1 10
+Samsung Xpress_M2070 Laser 9990 7,7 4
+Xerox Phaser_3020 Laser 7299,99 6,2 7
+HP LaserJet_P1005 Laser 12490 7,9 20
+1 1 1 1 1 10

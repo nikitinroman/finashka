@@ -1,0 +1,77 @@
+/*1) Запрос, который позволяет собрать статисктику о купленных билетах на различные сеансы в различные залы разных кинотеатров. 
+Вы можете оприделить самый прибыльный кинотеатр.*/
+select sum(s.ticket_price) "Сумма", count(s.ticket_price) "Куплено билетов", z.kino_zal_id "Номер зала", min(k.kinoteatr_id) "Номер кинотеатра", min(k.kinoteatr_name) "Название кинотеарта" from
+tickets t join seans s on s.seans_id = t.seans_id join zal z on z.kino_zal_id = s.kino_zal_id join kinoteatr k on k.kinoteatr_id = z.kinoteatr_id
+group by z.kino_zal_id
+order by sum(s.ticket_price);
+
+/*
+2 Запрос, который позволяет узнать процент заполненности каждого зала во время сеанса какого-либо фильма во время определенного сеанса.
+*/
+select sum(s.ticket_price), count(s.ticket_price), min(z.ryadu)*min(z.mesta) "Всего мест в зале", min(ki.kino_name) "Название фильма", 
+min(to_char(s.start_time, 'dd-mon-yyyy hh24:mi')) "Время начала сеанса",
+round((count(s.ticket_price)/(min(z.ryadu)*min(z.mesta))*100),3) "Процент заполненности",
+min(z.kino_zal_id) "Номер зала", min(k.kinoteatr_id) "Номер кинотеатра", min(k.kinoteatr_name) "Название кинотеатра" from
+tickets t join seans s on s.seans_id = t.seans_id join zal z on z.kino_zal_id = s.kino_zal_id join kinoteatr k on k.kinoteatr_id = z.kinoteatr_id 
+join kino_info ki on ki.id_kino = s.id_kino
+group by s.seans_id;
+
+/*
+3 Запрос, который позволяет выяснить, в какое время в кинотеатре больше посетителей.
+*/
+select sum(s.ticket_price) "Выручка за проданные билеты", count(s.ticket_price) "Количество проданных билетов", to_char(s.start_time, 'dd-mon-yyyy hh24:mi') 
+"Время начала сеанса" from
+tickets t join seans s on s.seans_id = t.seans_id join zal z on z.kino_zal_id = s.kino_zal_id join kinoteatr k on k.kinoteatr_id = z.kinoteatr_id
+group by to_char(s.start_time, 'dd-mon-yyyy hh24:mi')
+order by count(s.ticket_price);
+
+/*
+4 Запрос, который позволяет выяснить, на какую сумму продали билетов в каждом из кинотеатров, а так же узнать, 
+какова была общая заполненность по всем залам
+*/
+select sum(s.ticket_price) "Сумма проданных билетов, руб.",
+(select sum(z2.ryadu * z2.mesta) from zal z2)*8 "Всего мест в залах",
+count(s.ticket_price) "Всего продано билетов",
+round(count(s.ticket_price) / ((select sum(z2.ryadu * z2.mesta) from zal z2)*8) * 100, 2)
+"Процент заполненности", min(kino.kinoteatr_name) "Название кинотеатра"
+from tickets t
+join seans s on s.seans_id = t.seans_id
+join zal z on z.kino_zal_id = s.kino_zal_id
+join kinoteatr kino on kino.kinoteatr_id = z.kinoteatr_id
+group by z.kinoteatr_id;
+
+/*
+5 Запрос, который позволяет составить рейтинг самых популярных мест (во всех залах)
+*/
+select count(ryad) "Куплено билетов", ryad "Ряд", mesto "Место", s.kino_zal_id "Номер зала" from tickets  t join seans s on t.seans_id = s.seans_id join zal z on z.kino_zal_id = s.kino_zal_id 
+group by ryad, mesto, s.kino_zal_id order by count(ryad) desc;
+
+/*
+6) Запрос, который позволяет посмотреть, в какой зал какого кинотеатра было куплено больше билетов (для аналитики наиболее востребованных залов для поднятия цены, например)
+*/
+select sum(s.ticket_price) "Сумма", count(s.ticket_price) "Куплено билетов", z.kino_zal_id "Номер зала", min(k.kinoteatr_id) "Кинотеатр" from
+tickets t join seans s on s.seans_id = t.seans_id join zal z on z.kino_zal_id = s.kino_zal_id join kinoteatr k on k.kinoteatr_id = z.kinoteatr_id
+group by z.kino_zal_id
+order by count(s.ticket_price) desc;
+
+/*
+7 Запрос, который позволяет просмотреть статистику по средним ценам на билеты среди всех кинотеатров, а так же для каждого кинотеатра отдельно.
+*/
+select round(avg(s.ticket_price), 3) "Средняя цена по каждому кинотеатру",k.kinoteatr_id "Номер кинотеатра", min(k.kinoteatr_name) "Название кинотеатра", (select round(avg(s.ticket_price), 3) from
+tickets t join seans s on s.seans_id = t.seans_id) "Средняя цена по кинотеатрам в целом" from
+tickets t join seans s on s.seans_id = t.seans_id join zal z on z.kino_zal_id = s.kino_zal_id join kinoteatr k on k.kinoteatr_id = z.kinoteatr_id
+group by k.kinoteatr_id;
+
+/*
+8 Скрипт, который позволяет определить, в каком кинотеатре работает сотрудник, удолветворяющий условиям:
+1) не ремонтник
+2) зарплата между 20 и 80к рублей
+3) начальник у него- Я (так как я могу быть начальником не только сотрудника в своем кинотеатре, ведь связь между таблицей сотрудников и кинотеатров
+реализована многими ко многим.)
+*/
+select e.first_name "Имя", e.last_name "Фамилия", j.name "Должность", e.manager_id "Айди начальника", (select first_name || ' ' || last_name from employees_k where employee_id = 1) "Имя начальника", 
+k.kinoteatr_name "Название кинотеатра", e.salary "Зарплата" from jobs j join employees_k e on e.job_id = j.job_id join kino_emp ke on 
+ke.employee_id = e.employee_id join kinoteatr k on k.kinoteatr_id = ke.kinoteatr_id
+where e.manager_id = 1 and k.kinoteatr_id = 1 and e.salary between 20000 and 80000 and j.name not like '%repairer%';
+
+

@@ -1,0 +1,85 @@
+1)
+1.1
+a = c(1,1,2)
+b = c(0,-4,3)
+-4*a+5*b
+1.2
+#2*(a,b)*a-3|b|*b
+2*(a*b)*a - 3*norm(b,type = "2")*b
+2)
+a = c(2,0,-3)
+b = c(6,1,4)
+norm(a,type = "2")
+norm(b,type = "2")
+a%*%b
+as.numeric(a%*%b/(norm(a,type = "2") * norm(b,type = "2")))
+3)
+a = c(1,1,2,2,3,3,4,4)
+b = c(-2,-1,0,1,2,3,4,5)
+as.numeric(a%*%b/(norm(a,type = "2") * norm(b,type = "2"))) #острый
+4)
+a = c(1,0,4,-2,1,1)
+b = c(2,3,4,2,0,-3)
+d = c(3,1,3,2,9,5)
+e = c(4,0,3,2,0,-5)
+f = c(5,7,1,-2,8,3)
+g = c(6,4,1,2,0,2)
+mat = rbind(a,b,d,e,f,g) 
+mat
+x <- 0
+for (i in 1:ncol(mat))
+  if (x < (norm(mat[,i],type = "2")))
+    x <- norm(mat[,i],type = "2")
+print(x)
+5)
+№по столбцам
+for (i in 1:ncol(mat))
+  for (j in 1:ncol(mat))
+    if (as.numeric(mat[,i]%*%mat[,j])== 0)
+      print(c(i,j))
+#по строкам
+for (i in 1:nrow(mat))
+  for (j in 1:nrow(mat))
+    if (as.numeric(mat[i,]%*%mat[j,])== 0)
+      print(c(i,j))
+6)
+q = rbind(c(-1,2,0),c(3,-1,0),c(1,4,1)); q
+e = rbind(c(1,0,0),c(0,1,0),c(0,0,1)); e
+p = rbind(c(0,0,0,0,-3,4),c(1,1,1,1,1,1),c(2,2,2,2,2,2)); p
+6.1
+install.packages(("Matrix"))
+library(Matrix)
+nrow(q)
+ncol(q)
+nrow(e)
+ncol(e)
+nrow(p)
+ncol(p)
+6.2
+4*q+5*e
+6.3
+t(q)%*%q-e
+6.4
+q%*%q%*%q
+6.5
+det(q) #Корень из второго
+det(q%*%q) #Квадрат первого
+6.6
+install.packages(("expm"))
+library(expm)
+sqrtm(q-2*e)
+6.7
+q
+solve(q)
+6.8
+rankMatrix(p)[1]
+
+
+
+
+
+
+
+
+
+

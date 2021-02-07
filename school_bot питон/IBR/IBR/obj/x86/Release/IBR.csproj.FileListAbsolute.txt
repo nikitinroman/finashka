@@ -1,0 +1,10 @@
+E:\indicators by region\indicators by region\IBR\IBR\bin\Release\IBR.exe.config
+E:\indicators by region\indicators by region\IBR\IBR\obj\x86\Release\IBR.Change.resources
+E:\indicators by region\indicators by region\IBR\IBR\obj\x86\Release\IBR.Main.resources
+E:\indicators by region\indicators by region\IBR\IBR\obj\x86\Release\IBR.Properties.Resources.resources
+E:\indicators by region\indicators by region\IBR\IBR\obj\x86\Release\IBR.csproj.GenerateResource.Cache
+E:\indicators by region\indicators by region\IBR\IBR\obj\x86\Release\IBR.exe
+E:\indicators by region\indicators by region\IBR\IBR\obj\x86\Release\IBR.pdb
+E:\indicators by region\indicators by region\IBR\IBR\bin\Release\IBR.exe
+E:\indicators by region\indicators by region\IBR\IBR\bin\Release\IBR.pdb
+E:\indicators by region\indicators by region\IBR\IBR\obj\x86\Release\IBR.csprojResolveAssemblyReference.cache

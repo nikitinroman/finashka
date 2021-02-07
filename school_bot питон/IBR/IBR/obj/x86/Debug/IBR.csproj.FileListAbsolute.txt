@@ -1,0 +1,94 @@
+G:\indicators by region\indicators by region\IBR\IBR\bin\Debug\IBR.exe.config
+G:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.exe
+G:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.pdb
+G:\indicators by region\indicators by region\IBR\IBR\bin\Debug\DB_IBR.mdf
+G:\indicators by region\indicators by region\IBR\IBR\bin\Debug\DB_IBR_log.ldf
+G:\indicators by region\indicators by region\IBR\IBR\bin\Debug\IBR.exe
+G:\indicators by region\indicators by region\IBR\IBR\bin\Debug\IBR.pdb
+G:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.Change.resources
+G:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.Main.resources
+G:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.Properties.Resources.resources
+G:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.csproj.GenerateResource.Cache
+D:\indicators by region\indicators by region\IBR\IBR\bin\Debug\IBR.exe.config
+D:\indicators by region\indicators by region\IBR\IBR\bin\Debug\IBR.exe
+D:\indicators by region\indicators by region\IBR\IBR\bin\Debug\IBR.pdb
+D:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.Change.resources
+D:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.Main.resources
+D:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.Properties.Resources.resources
+D:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.csproj.GenerateResource.cache
+D:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.csproj.CoreCompileInputs.cache
+D:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.exe
+D:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.pdb
+E:\indicators by region\indicators by region\IBR\IBR\bin\Debug\IBR.exe.config
+E:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.Change.resources
+E:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.Main.resources
+E:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.Properties.Resources.resources
+E:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.csproj.GenerateResource.Cache
+E:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.exe
+E:\indicators by region\indicators by region\IBR\IBR\obj\x86\Debug\IBR.pdb
+E:\indicators by region\indicators by region\IBR\IBR\bin\Debug\IBR.exe
+E:\indicators by region\indicators by region\IBR\IBR\bin\Debug\IBR.pdb
+C:\Users\user\Documents\Пыля\курсач\IBR\IBR\bin\Debug\IBR.exe.config
+C:\Users\user\Documents\Пыля\курсач\IBR\IBR\bin\Debug\IBR.exe
+C:\Users\user\Documents\Пыля\курсач\IBR\IBR\bin\Debug\IBR.pdb
+C:\Users\user\Documents\Пыля\курсач\IBR\IBR\obj\x86\Debug\IBR.csprojAssemblyReference.cache
+C:\Users\user\Documents\Пыля\курсач\IBR\IBR\obj\x86\Debug\IBR.Change.resources
+C:\Users\user\Documents\Пыля\курсач\IBR\IBR\obj\x86\Debug\IBR.Main.resources
+C:\Users\user\Documents\Пыля\курсач\IBR\IBR\obj\x86\Debug\IBR.Properties.Resources.resources
+C:\Users\user\Documents\Пыля\курсач\IBR\IBR\obj\x86\Debug\IBR.csproj.GenerateResource.cache
+C:\Users\user\Documents\Пыля\курсач\IBR\IBR\obj\x86\Debug\IBR.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Пыля\курсач\IBR\IBR\obj\x86\Debug\IBR.exe
+C:\Users\user\Documents\Пыля\курсач\IBR\IBR\obj\x86\Debug\IBR.pdb
+C:\Users\user\Documents\Пыля\Курсовая работа\IBR\IBR\bin\Debug\IBR.exe.config
+C:\Users\user\Documents\Пыля\Курсовая работа\IBR\IBR\bin\Debug\IBR.exe
+C:\Users\user\Documents\Пыля\Курсовая работа\IBR\IBR\bin\Debug\IBR.pdb
+C:\Users\user\Documents\Пыля\Курсовая работа\IBR\IBR\obj\x86\Debug\IBR.csprojAssemblyReference.cache
+C:\Users\user\Documents\Пыля\Курсовая работа\IBR\IBR\obj\x86\Debug\IBR.Change.resources
+C:\Users\user\Documents\Пыля\Курсовая работа\IBR\IBR\obj\x86\Debug\IBR.Main.resources
+C:\Users\user\Documents\Пыля\Курсовая работа\IBR\IBR\obj\x86\Debug\IBR.Properties.Resources.resources
+C:\Users\user\Documents\Пыля\Курсовая работа\IBR\IBR\obj\x86\Debug\IBR.csproj.GenerateResource.cache
+C:\Users\user\Documents\Пыля\Курсовая работа\IBR\IBR\obj\x86\Debug\IBR.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Пыля\Курсовая работа\IBR\IBR\obj\x86\Debug\IBR.exe
+C:\Users\user\Documents\Пыля\Курсовая работа\IBR\IBR\obj\x86\Debug\IBR.pdb
+A:\Загрузки\IBR\IBR\bin\Debug\IBR.exe.config
+A:\Загрузки\IBR\IBR\bin\Debug\IBR.exe
+A:\Загрузки\IBR\IBR\bin\Debug\IBR.pdb
+A:\Загрузки\IBR\IBR\obj\x86\Debug\IBR.csprojAssemblyReference.cache
+A:\Загрузки\IBR\IBR\obj\x86\Debug\IBR.Change.resources
+A:\Загрузки\IBR\IBR\obj\x86\Debug\IBR.Main.resources
+A:\Загрузки\IBR\IBR\obj\x86\Debug\IBR.Properties.Resources.resources
+A:\Загрузки\IBR\IBR\obj\x86\Debug\IBR.csproj.GenerateResource.cache
+A:\Загрузки\IBR\IBR\obj\x86\Debug\IBR.csproj.CoreCompileInputs.cache
+A:\Загрузки\IBR\IBR\obj\x86\Debug\IBR.exe
+A:\Загрузки\IBR\IBR\obj\x86\Debug\IBR.pdb
+F:\IBR\IBR\bin\Debug\IBR.exe.config
+F:\IBR\IBR\obj\x86\Debug\IBR.exe
+F:\IBR\IBR\obj\x86\Debug\IBR.pdb
+F:\IBR\IBR\bin\Debug\IBR.exe
+F:\IBR\IBR\bin\Debug\IBR.pdb
+F:\IBR\IBR\obj\x86\Debug\IBR.Change.resources
+F:\IBR\IBR\obj\x86\Debug\IBR.Main.resources
+F:\IBR\IBR\obj\x86\Debug\IBR.Properties.Resources.resources
+F:\IBR\IBR\obj\x86\Debug\IBR.csproj.GenerateResource.Cache
+A:\Загрузки\IBR\IBR\IBR\bin\Debug\IBR.exe.config
+A:\Загрузки\IBR\IBR\IBR\bin\Debug\IBR.exe
+A:\Загрузки\IBR\IBR\IBR\bin\Debug\IBR.pdb
+A:\Загрузки\IBR\IBR\IBR\obj\x86\Debug\IBR.csprojAssemblyReference.cache
+A:\Загрузки\IBR\IBR\IBR\obj\x86\Debug\IBR.Change.resources
+A:\Загрузки\IBR\IBR\IBR\obj\x86\Debug\IBR.Main.resources
+A:\Загрузки\IBR\IBR\IBR\obj\x86\Debug\IBR.Properties.Resources.resources
+A:\Загрузки\IBR\IBR\IBR\obj\x86\Debug\IBR.csproj.GenerateResource.cache
+A:\Загрузки\IBR\IBR\IBR\obj\x86\Debug\IBR.csproj.CoreCompileInputs.cache
+A:\Загрузки\IBR\IBR\IBR\obj\x86\Debug\IBR.exe
+A:\Загрузки\IBR\IBR\IBR\obj\x86\Debug\IBR.pdb
+C:\Users\user\Documents\Пыля\IBR (5)\IBR\IBR\IBR\bin\Debug\IBR.exe.config
+C:\Users\user\Documents\Пыля\IBR (5)\IBR\IBR\IBR\bin\Debug\IBR.exe
+C:\Users\user\Documents\Пыля\IBR (5)\IBR\IBR\IBR\bin\Debug\IBR.pdb
+C:\Users\user\Documents\Пыля\IBR (5)\IBR\IBR\IBR\obj\x86\Debug\IBR.csprojAssemblyReference.cache
+C:\Users\user\Documents\Пыля\IBR (5)\IBR\IBR\IBR\obj\x86\Debug\IBR.Change.resources
+C:\Users\user\Documents\Пыля\IBR (5)\IBR\IBR\IBR\obj\x86\Debug\IBR.Main.resources
+C:\Users\user\Documents\Пыля\IBR (5)\IBR\IBR\IBR\obj\x86\Debug\IBR.Properties.Resources.resources
+C:\Users\user\Documents\Пыля\IBR (5)\IBR\IBR\IBR\obj\x86\Debug\IBR.csproj.GenerateResource.cache
+C:\Users\user\Documents\Пыля\IBR (5)\IBR\IBR\IBR\obj\x86\Debug\IBR.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Пыля\IBR (5)\IBR\IBR\IBR\obj\x86\Debug\IBR.exe
+C:\Users\user\Documents\Пыля\IBR (5)\IBR\IBR\IBR\obj\x86\Debug\IBR.pdb

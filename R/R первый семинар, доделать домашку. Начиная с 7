@@ -1,0 +1,70 @@
+q <- 1
+q2 = 2
+3 -> q3
+w <- 1
+w2 = 2
+3 -> w3
+e <- 1
+e2 = 2
+3 -> e3
+desyataya = 10
+одиннадцатая <- 11
+t = 1
+T = 11
+f = 1
+F = 11
+q = 1
+a = 11
+class(f)
+mode(F)
+print(t)
+#все работает, все можно, но делать так не стоит) Сообщений не возникает, увы!
+
+new = c(1,2,34,5,6,7,8,-3,11)
+max(new)
+min(new)
+mean(new)
+which(new > max(new)-2)
+which(new > min(new)+2)
+which(new > mean(new)+1)
+new[1] + new[2]
+sqrt(new)
+sin(pi/2)
+tan(pi/6)
+cos(2*pi)
+factorial(new[4])
+?c
+?t
+?T
+?f
+?F
+#######################
+xxx = numeric(1)
+yyy <- double(1)
+integer(1) -> zzz
+integer(1) -> zzz1
+xxx = 1
+yyy = 1.1
+zzz = -7
+zzz1 = 7
+is.double(yyy)
+is.double(xxx)
+is.integer(xxx)
+as.double(xxx)
+as.integer(zzz)
+as.integer(yyy)
+is.double(yyy)
+is.double(xxx)
+is.integer(zzz)
+flag = TRUE
+flag
+bad_flag = FALSE
+bad_flag
+class(flag)
+mode(bad_flag)
+rm(T)
+short_flag = T
+short_flag
+class(short_flag)
+#Пришлось удалить переменную, так как была зарезервирована Т
+numeric(bad_flag) = 1

@@ -1,0 +1,48 @@
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Properties.Resources.resources
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.csproj.GenerateResource.cache
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form1.resources
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\bin\Debug\WindowsFormsApp4_Nikita.exe.config
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\bin\Debug\WindowsFormsApp4_Nikita.exe
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\bin\Debug\WindowsFormsApp4_Nikita.pdb
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.exe
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.pdb
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form2.resources
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form3.resources
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.csprojAssemblyReference.cache
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form4.resources
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form5.resources
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form6.resources
+C:\Users\User\source\repos\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form7.resources
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\bin\Debug\WindowsFormsApp4_Nikita.exe.config
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\bin\Debug\WindowsFormsApp4_Nikita.exe
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\bin\Debug\WindowsFormsApp4_Nikita.pdb
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.csprojAssemblyReference.cache
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form1.resources
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form2.resources
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form3.resources
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form4.resources
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form5.resources
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form6.resources
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form7.resources
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Properties.Resources.resources
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.csproj.GenerateResource.cache
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.exe
+C:\Users\User\Desktop\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.pdb
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\bin\Debug\WindowsFormsApp4_Nikita.exe.config
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\bin\Debug\WindowsFormsApp4_Nikita.exe
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\bin\Debug\WindowsFormsApp4_Nikita.pdb
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form1.resources
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form2.resources
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form3.resources
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form4.resources
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form5.resources
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form6.resources
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Form7.resources
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.Properties.Resources.resources
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.exe
+C:\Users\User\Desktop\Прошлые семестры\Курсачи\WindowsFormsApp4_Nikita\WindowsFormsApp4_Nikita\obj\Debug\WindowsFormsApp4_Nikita.pdb
